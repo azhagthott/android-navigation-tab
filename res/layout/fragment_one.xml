@@ -9,8 +9,11 @@
     tools:context="cl.tradeo.android.dev.androidtab.MainActivity$PlaceholderFragment" >
 
     <TextView
-        android:id="@+id/section_label"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/text_1" />
 
 </RelativeLayout>
